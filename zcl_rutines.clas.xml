@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_RUTINES</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Manejo de Datos</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>ADD_MESS_FROM_BAPI</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Llena Tabla LOG desde Tabla BAPIRET2</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>ADD_MESS_FROM_BDC</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Llena Tabla LOG desde Tabla BDC</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>BDCDATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Manejo de Batch Inputs - Datos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>BDC_DYNPRO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Indica que es una Dynpro el elemento que se desea procesar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>BDC_FIELD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Indica que es un Campo el elemento que se desea procesar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>BDC_INSERT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Insert Session (SM35)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>BDC_TRANSACTION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Llama la transacción</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>BDC_TRANSACTION1</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Llama la transacción (1)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>CLOSE_DATASET</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>close Dataset</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>CONVERT_EXIT_ALPHA_INPUT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Alpha Input</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>DOWNLOAD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Download Tabla Interna en Archivo Local</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>DOWNLOAD_TO_SERVER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Download Tabla Interna en Servidor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>EXCEL_TO_INTERNAL_TABLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Cargar archivo de Excel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>GC_EXCEL_MAX_ROWS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Número de filas archivo de Excel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>GET_FILENAME</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener Nombre de Archivo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>MESSTAB</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Manejo de Batch Inputs - Mensajes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>OPEN_DATASET</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Open Dataset for input</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>OPEN_DATASET_OUTPUT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Open Dataset for output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>TP_CAMPOS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de datos CME</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>UPLOAD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Upload Archivos Locales en una Tabla Interna</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_RUTINES</CLSNAME>
+     <CMPNAME>UPLOAD_FROM_SERVER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Upload Archivo Desde Servidor en una Tabla Interna (txt)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
